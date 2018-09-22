@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Table exercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
+
+</head>
+
+<body style="width: 100%;">
+    <header id='header'>
+        <h1>HTML Table Generator</h1>
+
+        <div class="nagivation">
+
+            <div class="column">
+
+                <label for="row-number">Enter Number of rows:</label>
+                <input type="number" id="row-number">
+                <br>
+                <label for="column-number">Enter Number of columns:</label>
+                <input type="number" id="column-number">
+                <br>
+                <label for="table-width">Table width in percentage: </label>
+                <input type="number" id="table-width">
+            </div>
+
+
+            <div class="column">
+                <label for="table-color">Table background color </label>
+                <input type="color" id="table-color">
+                <br>
+                <label for="head-color">Head background color </label>
+                <input type="color" id="head-color">
+                <br>
+                <label for="body-color"> Body background color</label>
+                <input type="color" id="body-color">
+
+            </div>
+
+            <div class="column">
+                <label for="font-color"> Font Color</label>
+                <input type="color" id="font-color">
+                <br>
+                <label for="border-width">Border Width</label>
+                <input type="number" id="border-width">
+                <br>
+                <label for="border-color">Border Color</label>
+                <input type="color" id="border-color">
+
+            </div>
+
+            <div class="column">
+
+                <label for="font-type"> Font type</label>
+                <select id="font-type">
+                    <option value="Arial">Arial</option>
+                    <option value="Trebuchet MS">Trebuchet MS</option>
+                    <option value="Courier New">Courier New</option>
+                </select>
+                <br>
+                <label for="font-weight">Font weigh</label>
+                <select id="font-weight">
+                    <option value="normal">normal</option>
+                    <option value="bold">bold</option>
+                    <option value="bolder">bolder</option>
+                </select>
+                <br>
+                <label for="text-align">Text Align</label>
+                <select id="text-align">
+                    <option value="left">Left</option>
+                    <option value="center">Center</option>
+                    <option value="right">Right</option>
+                </select>
+            </div>
+        </div>
+
+        <button type="button" , id="generate">Generate Table </button>
+
+
+
+    </header>
+
+    <div id='table-wrapper'></div>
+    <script src="main.js"></script>
+</body>
+
+</html>

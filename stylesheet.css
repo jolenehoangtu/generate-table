@@ -1,0 +1,83 @@
+*{box-sizing: border-box;
+}
+#header{
+    background-color: rgb(194, 225, 194);
+    text-align: center;
+    padding: 0.5rem;
+    font-family: 'trebuchet MS';
+}
+h1{
+    color: rgb(26, 67, 33);
+    font-size: 3rem;
+}
+
+.nagivation{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*align-items: flex-start;*/
+}
+.column{
+    margin: 1rem;
+
+}
+
+input{
+    background-color: azure;
+    width: 5rem;
+    height: 1.5rem;
+    margin: 0.5rem;
+    font-size:1rem;
+    
+}
+label{
+    float: left;
+    height: 1.5rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    
+}
+
+select{
+    background-color: azure;
+    width: 5rem;
+    height: 1.5rem;
+    margin: 0.5rem;
+    font-size:1rem;
+}
+
+#table-wrapper{
+    margin: 0.2rem auto;
+    padding: 6rem;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+td{
+    padding:0.5rem;
+    font-size: 1.5rem;
+}
+th{
+    padding:0.5rem;
+    font-size: 2rem;
+}
+tr{
+    padding:0.5rem;
+    
+}
+#generate{
+    background-color: rgb(249, 152, 7);
+    border-radius: 3rem;
+    color: rgb(73, 16, 138);
+    padding: 1rem;
+    margin: 2rem;
+    font-size: 1rem;
+    outline : none;
+    font-weight: bolder;
+}
+#generate:active{
+    background: red;
+}
